@@ -461,11 +461,13 @@ li {
   fill: #AFB1B8;
 }
 
-.regular-customers-icon:hover, .regular-customers-icon:focus {
+.regular-customers-icon:hover, 
+.regular-customers-icon:focus {
   fill: var(--accent-color);
 }
 
-.regular-customers-mark:hover, .regular-customers-mark:focus {
+.regular-customers-mark:hover, 
+.regular-customers-mark:focus {
   border-color: #2196F3;
 
 }
