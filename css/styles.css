@@ -461,17 +461,14 @@ li {
   fill: #AFB1B8;
 }
 
-.regular-customers-icon:hover, 
-.regular-customers-icon:focus {
-  fill: var(--accent-color);
+.regular-customers-mark:hover, .regular-customers-mark:focus {
+  border-color: var(--accent-color);
 }
 
-.regular-customers-mark:hover, 
-.regular-customers-mark:focus {
-  border-color: #2196F3;
-
-}
-
+.regular-customers-mark:hover .regular-customers-icon,
+ .regular-customers-mark:focus .regular-customers-icon {
+   fill: var(--accent-color);
+ }
 /*========end-regular-customers=======*/
 
 /*========contacts========*/
