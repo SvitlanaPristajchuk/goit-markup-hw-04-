@@ -259,11 +259,16 @@ li {
 .list-pictures-item {
   padding-right: 24px;
   padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.list-pictures-item:hover, .list-pictures-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .list-pictures-item:not(:nth-child(3n)) {
   margin-right: 30px;
-  margin-bottom: 30px;
+  
 }
 
 .modal-list {
@@ -290,23 +295,30 @@ li {
   display: flex;
   background: #2f303a;
   width: 100%;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.contacts .contact {
+  margin-right: 70px;
+}
+
+.contacts .container {
+  display: flex;
+  width: 1200px;
+  align-items: baseline;
 }
 
 .navigation-list-footer {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
 }
 
-.contact .logo {
+.navigation-list-item {
   margin-bottom: 20px;
 }
 
-.contact .contact-adress {
-  margin-bottom: 9px;
-}
-
-.contact .contact-email-footer {
+.navigation-list-item:not(:first-child) {
   margin-bottom: 9px;
 }
 
@@ -317,7 +329,7 @@ li {
   color: #ffffff;
 }
 
-.navigation-list-item .contact-adress {
+.contact-adress {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -325,7 +337,6 @@ li {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-top: 20px;
 }
 
 .contact-email-footer {
@@ -343,4 +354,58 @@ li {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  /*===========end-contacts=======*/
+}
+
+/*===========end-contacts=======*/
+
+/*==========come-over========*/
+
+.come-over {
+  width: 206px;
+  height: 80px;
+}
+
+.come-over-title {
+  width: 145px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.contacts-footer {
+  display: flex;
+  align-content: flex-start;
+}
+
+.social-links-list-mark-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-links-list-mark-footer:hover, .social-links-list-mark-footer:focus {
+  background-color: var(--accent-color);
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+  margin: 0 auto;
+}
+
+.social-links-icon-footer {
+  fill: white
+}
+
+/*===========end-contacts=======*/
