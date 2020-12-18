@@ -258,17 +258,28 @@ li {
 
 .list-pictures-item {
   padding-right: 24px;
-  padding-bottom: 20px;
   margin-bottom: 30px;
 }
 
-.list-pictures-item:hover, .list-pictures-item:focus {
+.list-pictures-focus:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.list-pictures-focus:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.list-pictures-focus {
+  display: block;
+  width: 370px;
+  height: 404px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;}
+ 
+
 .list-pictures-item:not(:nth-child(3n)) {
   margin-right: 30px;
-  
 }
 
 .modal-list {
